@@ -1,7 +1,7 @@
 # Capstone
 Data Science capstone project - Predictive text application
 
-https://stevescicluna.shinyapps.io/Data_Science_Capstone_Project/
+### https://stevescicluna.shinyapps.io/20190711_Capstone_Project/
 
 LIST OF FILES
 
