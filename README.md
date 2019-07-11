@@ -7,13 +7,13 @@ LIST OF FILES
 
 - **get_clean_data.R** - downloads, extracts, and cleans data, converts it into ngram files
 
-- **unigramFreq.rds** - unigram data file
+- **unigrams.rds** - unigram data file
 
-- **bigramFreq.rds** - bigram data file
+- **bigrams.rds** - bigram data file
 
-- **trigramFreq.rds** - trigram data file
+- **trigrams.rds** - trigram data file
 
-- **quadgram.rds** - quadgram data file
+- **quadgrams.rds** - quadgram data file
 
 - **prepareText.R** - cleans input text entered into predictive text app so it can be read
 
