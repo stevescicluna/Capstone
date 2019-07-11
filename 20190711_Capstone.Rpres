@@ -1,0 +1,53 @@
+Capstone Project - Predictive Text Application
+========================================================
+author: Steve Scicluna
+date: 11 July 2019
+autosize: false
+
+<style>
+.reveal .slides section .slideContent{
+    font-size: 24pt;
+}
+</style>
+
+Introduction
+========================================================
+
+This slide deck has been assembled to introduce and explain an interactive predictive text application created as part of the *Capstone Project* course in the Coursera Data Science Specialization, offered through Johns Hopkins University.
+
+Predictive text technology is in widespread use on smartphones and tablets around the world. The technology is based on collecting very large amounts of natural language data, such as news articles, Twitter messages, blog posts etc., and analysing this data for recurring patterns, such as how often the words 'I love' are followed by 'you', 'dogs', 'pasta', and so on.
+
+Very large data sets and the natural tendency of languages to have common figures of speech and idiomatic phrases enable statistical software to calculate the probabilities with which various words follow each other. The probabilities are the basis for predicting the next word as a phrase is progressively entered into a predictive text application.
+
+How it works
+========================================================
+
+The application uses the 'Stupid Backoff' approach .
+
+This is really a thing, and basically works as follows:
+
+1. If you enter a phrase of three or more words, the last three words are used to search a dataset of 16,491 four-word expressions with minimum four occurrences to find the word that most commonly follows this three word phrase.
+
+2. If that doesn't work, the last two words are used to search a dataset of 15,916 three-word expressions with minimum ten occurrences to find the word that most commonly follows this two word phrase.
+
+3. If that doesn't work, the last word is used to search a dataset of 16,787 two-word expressions with minimum twenty occurrences to find the find the word that most commonly follows this two word phrase.
+
+The data used by this application
+========================================================
+
+The data used by this application comprised approximately 3.5 million words, or a 5% sample of approximately 70 million words compiled from online news articles, blog posts, and Twitter posts, sourced from https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip.
+
+While the number of expressions sounds like a lot, it is still a 5% sample of a body of text sourced from a relatively narrow linguistic and cultural subset of the English-speaking population. Therefore, please don't be surprised if the text you enter does not return a result - just try entering another phrase!
+
+The data and code used to develop this application are saved at https://github.com/stevescicluna/Capstone.
+
+Try the predictive text app now
+========================================================
+
+https://stevescicluna.shinyapps.io/20190711_Capstone_Project/
+
+
+<div class="midcenter" style="margin-left:0px; margin-top:50px;">
+<img src="screenshot.png"></img>
+</div>
+
