@@ -24,3 +24,5 @@ LIST OF FILES
 - **server.R** - server logic for predictive text app
 
 - **ui.R** - user interface for predictive text app
+
+- **20190711_Capstone.Rpres** - code for presentation pack - http://www.rpubs.com/stevescicluna/512008 
