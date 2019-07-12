@@ -25,6 +25,6 @@ LIST OF FILES
 
 - **ui.R** - user interface for predictive text app
 
-- **20190711_Capstone.Rpres** - code for presentation pack - http://www.rpubs.com/stevescicluna/512008 
+- **20190711_Capstone.Rpres** - code for presentation pack - http://www.rpubs.com/stevescicluna/512287
 
 - **20190711_Capstone-rpubs.html** - presentation pack html file
