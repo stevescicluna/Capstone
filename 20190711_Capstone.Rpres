@@ -24,13 +24,13 @@ How it works
 
 The application uses the 'Stupid Backoff' approach .
 
-This is really a thing, and basically works as follows:
+Despite the name, this is really a thing, and basically works as follows:
 
 1. If you enter a phrase of three or more words, the last three words are used to search a dataset of 16,491 four-word expressions with minimum four occurrences to find the word that most commonly follows this three word phrase.
 
 2. If that doesn't work, the last two words are used to search a dataset of 15,916 three-word expressions with minimum ten occurrences to find the word that most commonly follows this two word phrase.
 
-3. If that doesn't work, the last word is used to search a dataset of 16,787 two-word expressions with minimum twenty occurrences to find the find the word that most commonly follows this two word phrase.
+3. If that doesn't work, the last word is used to search a dataset of 16,787 two-word expressions with minimum twenty occurrences to find the find the word that most commonly follows this word.
 
 The data used by this application
 ========================================================
